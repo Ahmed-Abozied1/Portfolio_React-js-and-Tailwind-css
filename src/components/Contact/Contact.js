@@ -20,27 +20,31 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           form.current.reset();
-          toast.success("Email send Successefully")
+          toast.success("Email send Successefully");
         },
         (error) => {
           console.log(error.text);
-          toast.error(error.text)
-
+          toast.error(error.text);
         }
       );
   };
   return (
-    <section className="bg-dark_primary text-white">
-    <Toaster />
+    <section className="bg-dark_primary text-white" id="contact">
+      <Toaster />
       <div className="md:container px-5 py-14">
-        <h2 className="title !text-white">{Contact.title}</h2>
-        <h4 className="subtitle">{Contact.subtitle}</h4>
+        <h2 className="title !text-white" data-aos="fade-down">
+          {Contact.title}
+        </h2>
+        <h4 className="subtitle" data-aos="fade-down">
+          {Contact.subtitle}
+        </h4>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
           <form
             ref={form}
             onSubmit={sendEmail}
             className="flex-1 flex flex-col gap-5"
+            data-aos="fade-up"
           >
             <input
               type="text"
@@ -69,7 +73,12 @@ const Contact = () => {
           </form>
           <div className="fle-1 flex flex-col gap-5">
             {Contact.social_media.map((content, i) => (
-              <div key={i} className="flex items-center gap-2">
+              <div
+                key={i}
+                data-aos="fade-down"
+                data-aos-delay={i * 400}
+                className="flex items-center gap-2"
+              >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
                 <Link
                   to={content.link}
