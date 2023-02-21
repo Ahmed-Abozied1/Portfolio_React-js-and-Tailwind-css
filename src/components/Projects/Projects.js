@@ -3,7 +3,7 @@ import { content } from "../../Content";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, pagination } from "swiper";
+import { Pagination } from "swiper";
 const Projects = () => {
   const { Projects } = content;
   return (
@@ -15,10 +15,10 @@ const Projects = () => {
           <br />
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
+<img
             src={Projects.image}
             alt=""
-            className="max-w-[45vw] min-w-[22rem]"
+            className="max-w-[45vw] min-w-[22rem] rounded-full"
           />
           <Swiper
             pagination={{ clickable: true }}
