@@ -6,10 +6,11 @@ import Projects from "./components/Projects/Projects";
 import Service from "./components/Service/Service";
 import Skills from "./components/Skills/Skills";
 import Testimonials from "./components/Testimonials/Testimonials";
-
+import { BrowserRouter } from "react-router-dom";
 const App = () => {
   return (
-    <div>
+  <BrowserRouter>
+      <div>
       <Hero />
       <Skills />
       <Service />
@@ -18,6 +19,7 @@ const App = () => {
       <Hireme />
       <Contact />
     </div>
+  </BrowserRouter>
   );
 };
 
