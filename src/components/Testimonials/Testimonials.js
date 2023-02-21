@@ -29,14 +29,13 @@ const Testimonials = () => {
           spaceBetween={40}
           slidesPerView={1.7}
           onSlideChange={(e) => {
-            console.log(e.realIndex);
             setActiveIndex(e.realIndex);
           }}
           modules={[Pagination]}
           className="md:h-96 h-[40rem] max-w-3xl"
         >
           {Testimonials.testimonials_content.map((content, i) => (
-            <SwiperSlide key={i}>
+            <SwiperSlide key={i}> 
               <div
                 className={` duration-500 bg-bg_light_primary mx-8 border-2 
               p-8 h-full rounded-2xl flex items-center gap-6
