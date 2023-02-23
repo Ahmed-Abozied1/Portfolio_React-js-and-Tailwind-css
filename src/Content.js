@@ -11,9 +11,12 @@ import kotlin from "./assets/images/Skills/kotlin-logo.png";
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
-import project1 from "./assets/images/Services/img1.png";
-import project2 from "./assets/images/Services/img2.png";
-import project3 from "./assets/images/Services/img3.png";
+import project1 from "./assets/images/Services/img11.jpg";
+import project2 from "./assets/images/Services/img12.jpg";
+import project3 from "./assets/images/Services/img13.jpg";
+import project4 from "./assets/images/Services/img14.jpg";
+import project5 from "./assets/images/Services/img15.jpg";
+import project6 from "./assets/images/Services/img16.jpg";
 // import person_project from "./assets/images/Services/person.png";
 import person_project from "./assets/images/Services/projects.jpg";
 
@@ -138,16 +141,28 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "دليل الانظمه السعودية",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "دليل الانظمه السعودية",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "دليل الانظمه السعودية",
         image: project3,
+      },
+      {
+        title: "Shipp99",
+        image: project4,
+      },
+      {
+        title: "Resto",
+        image: project5,
+      },
+      {
+        title: "Shipp99",
+        image: project6,
       },
     ],
   },
@@ -157,27 +172,26 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Ahmed is great at writing code on the frontend, I highly recommend him.”",
         img: avatar1,
-        name: "JOHN DOE",
+        name: "Ahmed Badry ",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“It's great to work with Mr. Ahmed as he has a knowledge of programming that makes communication very easy to make a great job”",
         img: avatar2,
-        name: "Tom Alex",
+        name: "Hamza Ali",
       },
       {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+        review: "Ahmed did very good job, I'm totally recommend him”",
         img: avatar3,
-        name: "Johnny",
+        name: "Sam Sultan",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Ahmed  is an excellent in code, very creative, very patient and I highly recommend him”",
         img: avatar4,
-        name: "ROBBIN",
+        name: "Momen Hassen",
       },
     ],
   },
@@ -186,7 +200,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "As an Android developer,   strong programming skills in languages such as Java or Kotlin,  responsibilities involve developing and testing mobile applications that meet the client's requirements and deliver a great user experience.",
     btnText: "Hire Me",
   },
   Contact: {
@@ -206,8 +220,7 @@ export const content = {
       {
         text: "github",
         icon: BsGithub,
-        link: "https://github.com/AhmedAlamin"
-        
+        link: "https://github.com/AhmedAlamin",
       },
     ],
   },
