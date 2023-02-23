@@ -23,8 +23,8 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import project1 from "./assets/images/Services/img11.jpg";
 import project2 from "./assets/images/Services/img12.jpg";
 import project3 from "./assets/images/Services/img13.jpg";
-import project4 from "./assets/images/Services/img14.jpg";
-import project5 from "./assets/images/Services/img15.jpg";
+import project4 from "./assets/images/UI_Images/quiz1.jpeg";
+import project5 from "./assets/images/UI_Images/quiz2.jpeg";
 import project6 from "./assets/images/Services/img16.jpg";
 // import person_project from "./assets/images/Services/person.png";
 import person_project from "./assets/images/Services/projects.jpg";
@@ -262,7 +262,7 @@ export const content = {
      
       {
         title: "Quiz App",
-        image: proj2_3,
+        image: project5,
       },
       {
         title: "Not App",
