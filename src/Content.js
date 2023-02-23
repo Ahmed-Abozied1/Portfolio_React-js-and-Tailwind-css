@@ -1,12 +1,21 @@
 // import images
 import Hero_person from "./assets/images/Hero/hero.jpg";
 
-import figma from "./assets/images/Skills/figma.png";
+import adobXd from "./assets/images/Skills/Adobe_XD_CC_icon.svg.png";
 import json from "./assets/images/Skills/json3.png";
 import ps from "./assets/images/Skills/ps.png";
 import firebase from "./assets/images/Skills/firebase2.png";
 import Android from "./assets/images/Skills/android2.png";
 import kotlin from "./assets/images/Skills/kotlin-logo.png";
+import oop from "./assets/images/Skills/oop.png";
+import restApi from "./assets/images/Skills/restApipng.png";
+import Rxjava from "./assets/images/Skills/rxjava2.png";
+
+import Retrofit  from "./assets/images/Skills/Retrofit.png";
+import Dagger  from "./assets/images/Skills/Dagger-Hilt.png";
+import jetpack  from "./assets/images/Skills/jetpack-compose-icon_RGB.png";
+
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -19,6 +28,23 @@ import project5 from "./assets/images/Services/img15.jpg";
 import project6 from "./assets/images/Services/img16.jpg";
 // import person_project from "./assets/images/Services/person.png";
 import person_project from "./assets/images/Services/projects.jpg";
+// **import images from UI Images
+// project1
+import proj1_1 from "./assets/images/UI_Images/img1.jpg";
+import proj1_2 from "./assets/images/UI_Images/img2.jpg";
+import proj1_3 from "./assets/images/UI_Images/img3.jpg";
+import proj1_4 from "./assets/images/UI_Images/img4.jpg";
+
+// project2
+import proj2_1 from "./assets/images/UI_Images/img5.jpg";
+import proj2_2 from "./assets/images/UI_Images/img6.jpg";
+import proj2_3 from "./assets/images/UI_Images/img7.jpg";
+import proj2_4 from "./assets/images/UI_Images/img8.jpg";
+// project3
+import proj3_1 from "./assets/images/UI_Images/note1.jpg";
+import proj3_2 from "./assets/images/UI_Images/note2.jpg";
+import proj3_3 from "./assets/images/UI_Images/note3.jpg";
+import proj3_4 from "./assets/images/UI_Images/note4.jpg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -64,6 +90,7 @@ export const content = {
     title: "Android Developer",
     firstName: "Ahmed",
     LastName: " Alamin",
+    job:"I'm an android developer with +2 years of experience building and maintaining software. Highly skilled in communication and collaboration.",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
@@ -82,9 +109,9 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
+        name: "Adob XD",
         para: " user-friendly interface, and scalability",
-        logo: figma,
+        logo: adobXd,
       },
       {
         name: "Android Fundamentals",
@@ -111,26 +138,103 @@ export const content = {
         para: " cross-platform, statically-typed programming language",
         logo: kotlin,
       },
+      {
+        name: "Object Oriented Programming",
+        para: " programming paradigm that uses objects to represent real-world entities and their interactions",
+        logo: oop,
+      },
+      {
+        name: "REST API",
+        para: " popular architectural style used to build web services that can be accessed via HTTP.",
+        logo: restApi,
+      },
+      {
+        name: "RxJava",
+        para: " popular architectural style used to build web services that can be accessed via HTTP.",
+        logo: Rxjava,
+      },
+      {
+        name: "Retrofit",
+        para: " type-safe HTTP client library for Android and Java applications that simplifies the process of making HTTP requests to a RESTful API.",
+        logo: Retrofit,
+      },
+      {
+        name: "Dagger-Hilt",
+        para: " type-safe HTTP client library for Android and Java applications that simplifies the process of making HTTP requests to a RESTful API.",
+        logo: Dagger,
+      },
+      {
+        name: "Jetpack Compose",
+        para: " UI toolkit for building native Android applications using a declarative programming model..",
+        logo: jetpack,
+      },
+      
     ],
     icon: MdArrowForward,
+  },
+  ui_images: {
+    title: "UI_apps",
+    subtitle: "MY CREATION",
+    skills_content: [
+      {
+        logo:proj1_1 ,
+      },
+      {
+        logo: proj1_2,
+      },
+      {
+      
+        logo: proj1_3,
+      },
+      {
+       logo: proj1_4,
+      },
+      {
+        logo:proj2_1 ,
+      },
+      {
+        logo: proj2_2,
+      },
+      {
+      
+        logo: proj2_3,
+      },
+      {
+       logo: proj2_4,
+      },
+      {
+        logo:proj3_1 ,
+      },
+      {
+        logo: proj3_2,
+      },
+      {
+    
+        logo: proj3_3,
+      },
+      {
+       logo: proj3_4,
+      },
+           
+    ],
   },
   services: {
     title: "Services",
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Anroid Development",
+        title: "Create your own application from scratch",
         para: " process of building mobile applications for devices that run on the Android operating system. It involves using programming languages such as Java or Kotlin, along with Android SDK (Software Development Kit) tools, to create apps that can be installed on Android devices.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "Creating UI/UX for your project",
         para: "UI/UX, or user interface/user experience, is the design and development of digital interfaces that are visually appealing, easy to use, and provide a seamless user experience. It encompasses both the visual design of a product, such as its layout.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "Photoshop offers a wide range of features, including image cropping, resizing, retouching, color correction, and filter effects. PhotoShop editing can be used to improve the quality of images, remove blemishes, adjust brightness and contrast, and enhance the overall look and feel of images.",
+        title: "A session to discuss your ideas and transform them into an executable system",
+        para: "There will be a free half-hour meeting to discuss any ideas related to your project and the possibility of its implementation, and you will be informed of a suitable price offer for the project.",
         logo: services_logo3,
       },
     ],
@@ -143,26 +247,32 @@ export const content = {
       {
         title: "دليل الانظمه السعودية",
         image: project1,
+        describtion:"دليل الأنظمة: حيث يمكن تصفح مواد الأنظمة بالتفصيل، ومشاركتها عبر البريد الإلكتروني أو التواصل الاجتماعي على مستوى المادة نفسها داخل النظام. كما يتاح البحث داخل المواد في النظام."
       },
       {
         title: "دليل الانظمه السعودية",
         image: project2,
       },
+      
       {
-        title: "دليل الانظمه السعودية",
-        image: project3,
-      },
-      {
-        title: "Shipp99",
+        title: "Quiz App",
         image: project4,
+        describtion:"Introducing the ultimate quiz app that will put your knowledge to the test! With a wide range of topics and questions, this app is perfect for anyone looking to challenge themselves or simply have fun."
+      },
+     
+      {
+        title: "Quiz App",
+        image: proj2_3,
       },
       {
-        title: "Resto",
-        image: project5,
+        title: "Not App",
+        image: proj3_1,
+        describtion:"Introducing the perfect note-taking app to help you stay organized and on top of your game! With our user-friendly interface and intuitive features, taking and managing notes has never been easier."
+        
       },
       {
-        title: "Shipp99",
-        image: project6,
+        title: "Not App",
+        image: proj3_2,
       },
     ],
   },

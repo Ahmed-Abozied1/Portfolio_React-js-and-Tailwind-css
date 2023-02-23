@@ -11,6 +11,7 @@ import NavBar from "./Layouts/NavBar/NavBar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import UI_Images from "./components/UI_Images/UI_Images";
 
 const App = () => {
  
@@ -31,6 +32,7 @@ const App = () => {
       <Skills />
       <Service />
       <Projects />
+      <UI_Images/>
       <Testimonials />
       <Hireme />
       <Contact />

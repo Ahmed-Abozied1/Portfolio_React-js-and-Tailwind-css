@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import { Link } from "react-router-dom";
 const Projects = () => {
   const { Projects } = content;
   return (
@@ -18,35 +19,39 @@ const Projects = () => {
           </h4>
           <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
-            src={Projects.image}
-            alt=""
-            data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem] rounded-full"
-          />
+        <div >
+         
           <Swiper
             pagination={{ clickable: true }}
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary
-            self-start       "
+           
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
-                className="bg-white rounded-3xl p-5
-              border-b-8 border-[#FAF9FD] h-fit
-              "
+              
+              
               >
-                <img src={content.image} alt="" />
+              
+
+              <Link to="#" className="flex flex-col items-center bg-white border border-none rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray dark:bg-gray-800 dark:hover:bg-gray-700">
+    <img className="object-cover w-full rounded-t-lg h-96 p-2 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src={content.image} alt=""/>
+    <div className="flex flex-col justify-between p-4 leading-normal">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{content.title}</h5>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{content.describtion}</p>
+    </div>
+</Link>
+
+
+                {/* <img src={content.image} alt="" />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <button className="font-bold text-gray self-end ">
                     Read More
                   </button>
-                </div>
+                </div> */}
               </SwiperSlide>
             ))}
           </Swiper>

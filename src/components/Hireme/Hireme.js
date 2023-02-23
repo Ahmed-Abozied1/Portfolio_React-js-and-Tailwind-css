@@ -35,6 +35,9 @@ const Hireme = () => {
             <button className="btn bg-dark_primary text-white">
               {Hireme.btnText}
             </button>
+            <div class="text-2xl text-dark_primary font-bold relative hourly-rate">
+            For 12 $ per hour<span class="text-base font-normal absolute bottom-0 left-4 after:content-[attr(data-currency)]"></span>
+</div>
           </div>
         </div>
       </div>
