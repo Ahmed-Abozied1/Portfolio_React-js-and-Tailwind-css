@@ -33,12 +33,12 @@ const Skills = () => {
     <section id="skills" className="min-h-fit bg-bg_light_primary">
       {/* modal */}
       <Modal
-        isOpen={modalIsOpen}
+        // isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
       >
         <div className="flex items-center gap-2">
-          <img className="h-10" src={selectSkill?.logo} alt="..." />
+          <img className="h-20 w-20 rounded-xl" src={selectSkill?.logo} alt="..." />
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />

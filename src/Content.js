@@ -1,12 +1,12 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/hero.jpg";
 
 import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
+import json from "./assets/images/Skills/json3.png";
 import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import firebase from "./assets/images/Skills/firebase2.png";
+import Android from "./assets/images/Skills/android2.png";
+import kotlin from "./assets/images/Skills/kotlin-logo.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -80,33 +80,33 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: " user-friendly interface, and scalability",
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "Android Fundamentals",
+        para: "including user interface design, activities, intents, and debugging",
+        logo: Android,
       },
       {
         name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        para: "manipulate and enhance digital images",
         logo: ps,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        name: "Firebase ",
+        para: "range of tools and services for developing mobile and web applications. ",
+        logo: firebase,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "JSON",
+        para: "lightweight data interchange format used for exchanging data between applications",
+        logo: json,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Kotlin",
+        para: " cross-platform, statically-typed programming language",
+        logo: kotlin,
       },
     ],
     icon: MdArrowForward,
@@ -116,18 +116,18 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Anroid Development",
+        para: " process of building mobile applications for devices that run on the Android operating system. It involves using programming languages such as Java or Kotlin, along with Android SDK (Software Development Kit) tools, to create apps that can be installed on Android devices.",
         logo: services_logo1,
       },
       {
         title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "UI/UX, or user interface/user experience, is the design and development of digital interfaces that are visually appealing, easy to use, and provide a seamless user experience. It encompasses both the visual design of a product, such as its layout.",
         logo: services_logo2,
       },
       {
         title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Photoshop offers a wide range of features, including image cropping, resizing, retouching, color correction, and filter effects. PhotoShop editing can be used to improve the quality of images, remove blemishes, adjust brightness and contrast, and enhance the overall look and feel of images.",
         logo: services_logo3,
       },
     ],

@@ -44,10 +44,10 @@ const Hero = () => {
         </div>
         {/* second col */}
         <div className="md:h-[37rem] h-96">
-          <img 
+          {/* <img 
                   data-aos="slide-up"
 
-          src={hero.image} alt="" className="h-full object-cover" />
+          src={hero.image} alt="" className="h-full object-cover rounded-xl w-60  sm:hidden" /> */}
         </div>
       </div>
     </section>
